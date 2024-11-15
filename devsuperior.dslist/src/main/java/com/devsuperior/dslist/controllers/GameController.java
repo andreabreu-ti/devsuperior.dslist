@@ -24,11 +24,13 @@ public class GameController {
 		List<GameMinDTO> result = gameService.findAll();
 		return result;
 	}
-	
+
 	/*
-	 *	Um Get que irá receber um ID na rota, colocar o argumento: @GetMapping(value = "/{id")
+	 * Um Get que irá receber um ID na rota, colocar o argumento: @GetMapping(value
+	 * = "/{id")
 	 *
-	 *	@PathVariable --> O id case com o id passado na requisição, utiliza-se esta anotação
+	 * @PathVariable --> O id case com o id passado na requisição, utiliza-se esta
+	 * anotação
 	 */
 	@GetMapping(value = "/{id}")
 	public GameDTO findById(@PathVariable Long id) {
