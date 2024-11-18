@@ -6,3 +6,9 @@
 
 # Sobre o Projeto
 Projeto criado no intensivão Java e Spring - DevSuperior
+
+# Tecnologias utilizadas
+
+- Java
+- Maven
+- Postgresql
